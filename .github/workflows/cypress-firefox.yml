@@ -6,8 +6,7 @@ jobs:
   cypress-run:
     runs-on: ubuntu-20.04
     container: 
-      image:  cypress/included:9.5.1
-      options: --user 1001
+      image:  cypress/included:10.9.0
     steps:
       - name: Checkout
         uses: actions/checkout@v2
