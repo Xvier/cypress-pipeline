@@ -5,7 +5,7 @@ on: [push]
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
-    container: cypress/included:10.9.0
+    container: cypress/included:9.5.1
     steps:
       - name: Checkout
         uses: actions/checkout@v2
